@@ -1,0 +1,12 @@
+.contener {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, #4A90E2, #9013FE);
+/* clip-path: path('M 10 0 L 190 0 Q 200 0 200 10 L 200 160 Q 190 190 170 190 L 30 190 Q 10 190 10 160 L 10 10 Q 10 0 10 0 Z'); */
+/* clip-path: polygon(0 0, 100% 0, 100% 180px, 80% 200px, 60% 180px, 40% 200px, 20% 180px, 0 200px); */
+
+clip-path: path('M 20 0 Q 0 40 20 80 L 180 80 Q 200 40 180 0 Z M 20 120 Q 0 160 20 200 L 180 200 Q 200 160 180 120 Z');
+
+
+
+}
