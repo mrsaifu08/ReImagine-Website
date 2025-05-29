@@ -88,8 +88,8 @@ main{
     position: absolute;
     left: 44%;
     top: 15%;
-    width: 800px;
-    height: 550px;
+    width: 880px;
+    height: 630px;
     background-image: url(WhatsApp\ Image\ 2025-05-16\ at\ 21.10.57_66c94c14.jpg);
     background-position: left;
     background-size: cover;
@@ -97,22 +97,27 @@ main{
 }
 
 .main-text{
-  height: 310px;
-  width: 610px;
+  height: 350px;
+  width: 680px;
   background-image: url(Adobe\ Express\ -\ file.png);
   background-position: center;
   background-size: cover;
   margin-bottom: 20px;
-  margin-top: 25px;
+  margin-top: 55px;
 }
 
 .maintxt-card{
   display: flex;
 }
 
+.web-text p{
+  font-size: 20px;
+
+}
+
 .main-text2{
-  height: 310px;
-  width: 1000px;
+  height: 365px;
+  width: 1070px;
   /* background-color: red; */
   background-image: url(Adobe\ Express\ -\ file\ \(1\).png);
   background-position: center;
@@ -122,9 +127,9 @@ main{
 
 .card{
   position: absolute;
-  top: 91%;
-  left: 72%;
-  width: 390px;
+  top: 93%;
+  left: 70%;
+  width: 450px;
   height: 310px;
   background: linear-gradient(to bottom, #222933, #000000);
   /* -webkit-background-clip: text; */
@@ -133,7 +138,7 @@ main{
 }
 
 .card h2{
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 30px;
   padding-top: 30px;
   font-weight: 100;
@@ -141,7 +146,7 @@ main{
 }
 
 .card h1{
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 400;
   padding-left: 30px;
   padding-top: 20px;
@@ -149,8 +154,8 @@ main{
 }
 
 .card h3{
-  width: 390px;
-  height: 70px;
+  width: 450px;
+  height: 75px;
   display: flex;
   align-items: center;
   white-space: nowrap;
@@ -160,8 +165,9 @@ main{
 }
 
 .card i{
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  margin-left: 50px;
   background-color: rgb(0, 0, 0);
   display: flex;
   font-size: 30px;
@@ -172,6 +178,16 @@ main{
   align-items: center;
 }
 
+.card:hover h3{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.card:hover i{
+  background-color: white;
+  color: black;
+}
 
 .marquee-container {
   width: 100%;
@@ -238,7 +254,8 @@ section{
   left: 30%;
   top: 25%;
   font-family: 'Spectrashell', sans-serif;
-  width: 55%;
+  width: 50%;
+  text-align: center;
   letter-spacing: 5px;
  font-size: 70px;
 
@@ -265,15 +282,15 @@ section{
   position: absolute;
   background-size: contain;
   background-repeat: no-repeat;
-  left: 40%;
-  top: 180%;
+  left: 42.5%;
+  top: 183%;
   
 }
 
 .image-box h2{
   position: absolute;
-  top: 183%;
-  left: 42%;
+  top: 185%;
+  left: 44.3%;
   font-size: 18px;
   font-weight: 600;
 }
@@ -344,6 +361,17 @@ section{
   color: white;
   justify-content: center;
   align-items: center;
+}
+
+.sub-heading2:hover h3{
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.sub-heading2:hover #icon2{
+  background-color: white;
+  color: black;
 }
 
 
@@ -433,7 +461,7 @@ color: #FFDA25;
 
 .price1{
   position: absolute;
-  top: 357.5%;
+  top: 360%;
   left: 28%;
   font-size: 25px;
   font-family: 'Spectrashell', sans-serif;
@@ -447,7 +475,7 @@ color: #FFDA25;
 
 .price2{
   position: absolute; 
-  top: 357.5%;
+  top: 360%;
   left: 59%;
   font-size: 25px;
   font-family: 'Spectrashell', sans-serif;
@@ -458,7 +486,7 @@ color: #FFDA25;
 } 
 
 .price3{
-  padding-left: 950px;
+  padding-left: 1050px;
   font-size: 25px;
   font-family: 'Spectrashell', sans-serif;
   letter-spacing: 5px;
@@ -472,7 +500,7 @@ color: #FFDA25;
   left: 40px;
   font-family: 'Spectrashell', sans-serif;
   letter-spacing: 5px;
-  font-size: 115px;
+  font-size: 130px;
   padding-top: 100px;
   text-align: center;
 }
@@ -525,7 +553,7 @@ color: #FFDA25;
   background-size: cover;
   position: absolute;
   bottom: 0;
-  left: 62.5%;
+  left: 66%;
 }
 
 .hero-img h3{
@@ -555,7 +583,7 @@ color: #FFDA25;
 }
 
 .hero-img h1{
-  padding-top: 520px;
+  padding-top: 550px;
   font-size: 40px;
   font-weight: 400;
 }
@@ -565,7 +593,7 @@ color: #FFDA25;
 }
 
 .hero-img2 h1{
-  padding-top: 520px;
+  padding-top: 550px;
   padding-left: 20px;
   font-size: 40px;
   font-weight: 400;
@@ -591,9 +619,8 @@ color: #FFDA25;
   width: 31%;  
   height: 85%;
   border-radius: 40px;
-  /* background-color: cadetblue; */
   background-image: url(https://i.pinimg.com/736x/88/77/fd/8877fd455d0a730146d0aeabbd9d4a07.jpg);
-  background-position: 0 520px;
+  background-position: 0 590px;
   background-size: cover;
 }
 .model2{
@@ -601,9 +628,8 @@ color: #FFDA25;
   width: 31%;
   height: 85%;
   border-radius: 40px;
-  /* background-color: rgb(160, 95, 95); */
   background-image: url(https://i.pinimg.com/736x/6e/77/b2/6e77b2940b245c5eaaeec6aa2a7c661d.jpg);
-  background-position: 0 400px;
+  background-position: 0 430px;
   background-size: cover;
 }
 .model3{
@@ -612,7 +638,7 @@ color: #FFDA25;
   height: 85%;
   border-radius: 40px;
   background-image: url(https://i.pinimg.com/736x/c3/f7/0c/c3f70cfc374d809cd019471bb77360d7.jpg);
-  background-position: 0 750px;
+  background-position: 0 770px;
   background-size: cover;
 }
 
@@ -620,7 +646,7 @@ color: #FFDA25;
 .model h2{
   font-size: 27px;
   padding-left: 20px;
-  padding-top: 330px;
+  padding-top: 370px;
   padding-bottom: 10px;
 }
 
@@ -632,7 +658,7 @@ color: #FFDA25;
 .model2 h2{
   font-size: 27px;
   padding-left: 20px;
-  padding-top: 330px;
+  padding-top: 370px;
   padding-bottom: 10px;
 }
 
@@ -644,7 +670,7 @@ color: #FFDA25;
 .model3 h2{
   font-size: 27px;
   padding-left: 40px;
-  padding-top: 330px;
+  padding-top: 370px;
   padding-bottom: 10px;
 }
 
@@ -676,8 +702,9 @@ color: #FFDA25;
   width: 300px;
   height: 160px;
   position: absolute;
-  top: 651.7%;
-  left: 77%;
+  top: 650.8%;
+  left: 78.7%;
+  /* background-color: red; */
   background-image: url(bottom-right.png);
   background-position: center;
   background-size: cover;
@@ -688,7 +715,7 @@ color: #FFDA25;
   height: 65px;
   position: absolute;
   top: 659%;
-  left: 81%;
+  left: 83%;
   z-index: 999;
   display: flex;
   align-items: center;
@@ -817,4 +844,73 @@ color: #FFDA25;
   opacity: 1;
   transform: translateY(0px) scale(1) rotateX(0deg);
   filter: blur(0px);
+}
+
+
+
+
+/* From Uiverse.io by alexruix */ 
+.loader {
+  position: relative;
+  width: 120px;
+  height: 90px;
+  margin: 0 auto;
+}
+
+.loader:before {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background: #2a9d8f;
+  animation: loading-bounce 0.5s ease-in-out infinite alternate;
+}
+
+.loader:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 7px;
+  width: 45px;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #f2f2f2, -35px 50px 0 #f2f2f2, -70px 95px 0 #f2f2f2;
+  animation: loading-step 1s ease-in-out infinite;
+}
+
+@keyframes loading-bounce {
+  0% {
+    transform: scale(1, 0.7);
+  }
+
+  40% {
+    transform: scale(0.8, 1.2);
+  }
+
+  60% {
+    transform: scale(1, 1);
+  }
+
+  100% {
+    bottom: 140px;
+  }
+}
+
+@keyframes loading-step {
+  0% {
+    box-shadow: 0 10px 0 rgba(0, 0, 0, 0),
+            0 10px 0 #f2f2f2,
+            -35px 50px 0 #f2f2f2,
+            -70px 90px 0 #f2f2f2;
+  }
+
+  100% {
+    box-shadow: 0 10px 0 #f2f2f2,
+            -35px 50px 0 #f2f2f2,
+            -70px 90px 0 #f2f2f2,
+            -70px 90px 0 rgba(0, 0, 0, 0);
+  }
 }
